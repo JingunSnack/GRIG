@@ -7,7 +7,7 @@ name = "grig"
 version = "0.0.1"
 description = "GRim Diary"
 readme = "README.md"
-requires-python = "==3.10.*"
+requires-python = ">=3.7"
 authors = [
   {name = "Jingun Hong", email = "jingun.hong@gmail.com"}
 ]
