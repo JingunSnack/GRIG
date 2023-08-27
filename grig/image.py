@@ -23,7 +23,7 @@ def _create_prompt(summary):
             {"role": "system", "content": system_prompt},
             {
                 "role": "system",
-                "content": summary,
+                "content": f"Analysis result:\n{summary}",
             },
             {
                 "role": "user",

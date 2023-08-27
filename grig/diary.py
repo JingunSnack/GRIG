@@ -6,6 +6,8 @@ grammatically correct daily notes.
 
 Your job is to make the content easily digestible and relatable, while retaining the essence and key
 points of the analysis.
+
+Please regard 'speaker', 'they', and 'user' as 'I' who is the author of this daily note.
 """
 
 
@@ -17,7 +19,7 @@ def generate(summary):
             {"role": "system", "content": system_prompt},
             {
                 "role": "system",
-                "content": summary,
+                "content": f"Analysis result:\n{summary}",
             },
             {
                 "role": "user",
